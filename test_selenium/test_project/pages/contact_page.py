@@ -31,3 +31,5 @@ class ContactPage(BasePage):
     def get_member_list(self):
         ele = self.finds(By.CSS_SELECTOR,".member_colRight_memberTable_td:nth-child(2)")
         return [name.text for name in ele ]
+
+

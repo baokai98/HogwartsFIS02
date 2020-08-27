@@ -36,3 +36,4 @@ class BasePage:
 
     def wait(self, element):
         return WebDriverWait(self.driver, 10).until(ec.presence_of_element_located(element))
+

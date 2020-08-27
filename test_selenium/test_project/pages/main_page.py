@@ -18,3 +18,5 @@ class MainPage(BasePage):
         self.find(*self._add_member).click()
         # 第二次初始化， 子类AddMemberPage初始化
         return AddMemberPage(self.driver)
+
+

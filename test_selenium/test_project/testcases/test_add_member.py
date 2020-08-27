@@ -22,3 +22,4 @@ class TestAddMember:
 
     def teardown(self):
         self.main.driver.quit()
+

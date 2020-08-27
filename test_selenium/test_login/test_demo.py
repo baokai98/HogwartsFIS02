@@ -21,7 +21,7 @@ class TestDemo0():
         self.driver.quit()
 
     def test_demo0(self):
-        # self.driver.get("https://ceshiren.com/")
+        self.driver.get("https://ceshiren.com/")
         self.driver.set_window_size(1536, 960)
         self.driver.find_element(By.LINK_TEXT, "所有分类").click()
         categoryele = self.driver.find_element(By.LINK_TEXT, "所有分类")
